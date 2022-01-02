@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 export default function Login({ providers }) {
+    console.log(Object.values(providers));
     return (
         <div className="flex flex-col items-center space-y-20 pt-48 bg-black h-screen w-full">
             <Head>
